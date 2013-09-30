@@ -36,9 +36,8 @@ test,
   
      put 'demo','row-001','c1:cat','happy'
   in the solr query, you can see the docs
-  
+```xml  
   <response>
-
 <lst name="responseHeader">
   <int name="status">0</int>
   <int name="QTime">0</int>
@@ -58,7 +57,7 @@ test,
     <long name="_version_">1447621113185042432</long></doc>
 </result>
 </response>
-
+```
 
 
    
